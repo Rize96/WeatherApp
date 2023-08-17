@@ -243,7 +243,7 @@ function showCard (name, country, temp_c, text, cloud, pressure) {
 async function getWeather(city) {
     //адресс запроса
 
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
     displayLoading()
     const response = await fetch(url);
     const data = await response.json();
