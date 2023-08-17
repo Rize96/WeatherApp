@@ -131,28 +131,6 @@ button {
 
 
 /* card */
-.card {
-    padding: 20px;
-    height: auto;
-    border-radius: 18px;
-    position: relative;
-    margin: 40px 0px 15px;
-    maxwidth: 310px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-        box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.05);
-
-}
-
-.card-error {
-    padding: 20px;
-    height: auto;
-    width: auto;
-    border-radius: 18px;
-    background: white;
-    margin: 20px 0;
-}
 
 .card-city span {
     background: #e5464f;
