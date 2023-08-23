@@ -453,7 +453,7 @@ async function renderTask(task) {
         setProgressCloud(Math.round(cloud));
 
 
-
+        cardColor()
         imgCard(data)
         const like = document.querySelector('#heart')
 
